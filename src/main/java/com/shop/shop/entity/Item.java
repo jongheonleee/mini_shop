@@ -43,6 +43,7 @@ public class Item extends BaseEntity {
     @Lob
     @Column(nullable = false)
     private String itemDetail; // 상품 상세
+
     @Enumerated(EnumType.STRING)
     private ItemSellStatus itemSellStatus;
 
