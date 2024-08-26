@@ -17,7 +17,7 @@ import lombok.ToString;
 @Table(name = "cart")
 @Getter @Setter
 @ToString
-public class Cart {
+public class Cart extends BaseEntity {
 
     @Id
     @Column(name = "cart_id")
@@ -27,4 +27,10 @@ public class Cart {
     @OneToOne(fetch = FetchType.LAZY)
     @JoinColumn(name = "member_id")
     private Member member;
+
+    public static Cart createCart(Member member) {
+        var cart = new Cart();
+        cart.setMember(member);
+        return cart;
+    }
 }
