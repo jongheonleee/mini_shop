@@ -24,41 +24,45 @@
 
 <br>
 
-> 1️⃣ 회원
-> 2️⃣ 상품
-> 3️⃣ 주문
-> 4️⃣ 장바구니 
+> - 1️⃣ 회원
+> - 2️⃣ 상품
+> - 3️⃣ 주문
+> - 4️⃣ 장바구니 
 
 <br>
 
 ## 1️⃣ 회원
 
 > ### 3 가지 요구사항 존재
-> ### 1. 회원등록(회원가입) 
-> ### 2. 로그인
-> ### 3. 로그아웃 
+> ### - 1. 회원등록(회원가입) 
+> ### - 2. 로그인
+> ### - 3. 로그아웃 
 
 <br>
 
 ### 1. 회원등록(회원가입) 처리 흐름
 
-<img src="" width="800" height="500"/>
+<img src="https://github.com/user-attachments/assets/ad731848-77f7-4522-9431-77217e133cc0" width="800" height="500"/>
+
 
 ### 2. 로그인 처리 흐름
 
-<img src="" width="800" height="500"/>
+<img src="https://github.com/user-attachments/assets/8865b709-bc92-45b2-95bd-9c1407215b7d" width="800" height="500"/>
+
+
 
 ### 3. 로그아웃 처리 흐름
 
-<img src="" width="800" height="500"/>
+<img src="https://github.com/user-attachments/assets/6d1f7114-702a-4d91-97a6-76f9caefa65b" width="800" height="500"/>
+
 
 
 ## 2️⃣ 상품
 
 > ### 3 가지 요구사항 존재
-> ### 1. 상품 등록 : 관리자가 상품을 등록하는 기능 -> 상품 등록 페이지, 상품 등록 처리 
-> ### 2. 상품 관리 : 관리란? 기존의 등록된 상품의 정보를 '수정'하는 것을 의미함 -> 관리자 페이지에서 모든 상품 조회, 특정 상품 관리 페이지, 특정 상품 관리 처리 
-> ### 3. 상품 구매 : 회원이 상품을 상세 페이지에서 구매하는 것을 의미 -> 구매 경로 : (1) 장바구니 담기, (2) 주문하기 -> 비동기통신(ajax) 기반으로 처리 
+> ### - 1. 상품 등록 : 관리자가 상품을 등록하는 기능 -> 상품 등록 페이지, 상품 등록 처리 
+> ### - 2. 상품 관리 : 관리란? 기존의 등록된 상품의 정보를 '수정'하는 것을 의미함 -> 관리자 페이지에서 모든 상품 조회, 특정 상품 관리 페이지, 특정 상품 관리 처리 
+> ### - 3. 상품 구매 : 회원이 상품을 상세 페이지에서 구매하는 것을 의미 -> 구매 경로 : (1) 장바구니 담기, (2) 주문하기 -> 비동기통신(ajax) 기반으로 처리 
 
 <br>
 
@@ -74,11 +78,12 @@
 
 #### 1-1. 인증/인가 처리
 
-<img src="" width="800" height="500"/>
+
+<img src="https://github.com/user-attachments/assets/a258583a-54cc-47a3-aa16-87c984467768" width="800" height="500"/>
 
 #### 1-2. 상품 등록 처리
 
-<img src="" width="800" height="500"/>
+<img src="https://github.com/user-attachments/assets/1ede9ad0-f627-490b-9657-16c38f416a93" width="800" height="500"/>
 
 ### 2. 상품 관리 : 관리란? 기존의 등록된 상품의 정보를 '수정'하는 것을 의미함
 
@@ -92,11 +97,13 @@
 
 #### 2-1. 인증/인가 처리
 
-<img src="" width="800" height="500"/>
+
+<img src="https://github.com/user-attachments/assets/b40391a1-13dd-4c97-90aa-3797d4d3f818" width="800" height="500"/>
 
 #### 2-2. 상품 관리(수정) 처리
 
-<img src="" width="800" height="500"/>
+
+<img src="https://github.com/user-attachments/assets/fe0741f6-40c6-4d74-ac2f-701d04e7ad55" width="800" height="500"/>
 
 
 ### 3. 상품 구매 : 회원이 상품을 상세 페이지에서 구매하는 것을 의미
